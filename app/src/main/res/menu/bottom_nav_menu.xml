@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeNavigationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_timer"
+        android:title="home"
+         />
+    <item
+        android:id="@+id/addNavigationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="add"
+        android:icon="@drawable/ic_add"
+         />
+    <item
+        android:id="@+id/reportNavigationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="report"
+        android:icon="@drawable/ic_report" />
+    <item
+        android:id="@+id/settingsNavigationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="settings"
+        android:icon="@drawable/ic_settings" />
+</menu>
