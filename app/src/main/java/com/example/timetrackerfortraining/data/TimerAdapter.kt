@@ -35,6 +35,6 @@ class TimerAdapter: RecyclerView.Adapter<TimerAdapter.TimerHolder>() {
 
     fun addTimer(timer: Timer){
         timerList.add(timer)
-        notifyDataSetChanged()
+        notifyItemChanged(timerList.size-1)
     }
 }
